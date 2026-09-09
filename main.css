@@ -87,8 +87,7 @@ button:active {
     width: 48vw;
     display: flex;
     flex-direction: column;
-    margin-bottom: 476px;
-    margin-top:30px;
+    margin-bottom: 556px;
 }
 
 .vinyls {
@@ -99,7 +98,7 @@ button:active {
     align-items: center;
     display: none;
     mix-blend-mode: multiply;
-    margin-bottom:15px;
+    margin-bottom:60px;
     left: 13vw;
 }
 
@@ -118,7 +117,7 @@ button:active {
     display: flex;
     justify-content: space-between;
     gap:10px;
-    margin-bottom: 43px;
+    margin-bottom: 149px;
 }
 
 .center-bottom {
@@ -143,7 +142,7 @@ button:active {
     padding: 20px;
     color:black ;
     width: 45vw;
-    margin-bottom: -700px;
+    margin-bottom: -660px;
 
 }
 
@@ -193,11 +192,28 @@ button:active {
     display: block;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1360px),(max-height:475px) {
   body {
     font-size: 120%;
   }
+
+  .instructions {
+    margin-bottom: 446px;
+    margin-top:10px;
+  }
   
+  .vinyls {
+    margin-bottom:10px;
+    width: 22vw;
+    height: 22vh;
+    left: 14.5vw;
+  }
+
+  .center-top {
+    margin-bottom: 43px;
+  }
+
+  .controls {
+    margin-bottom: -700px;
+  }
 }
-
-
