@@ -6,13 +6,14 @@ body{
     display: flex;
     align-items: center;  
     margin: 0; 
-    background-color: white;
+    background-color: black;
     background-repeat: no-repeat;
     background-size: cover;    
     background-position: center;
     background-attachment:fixed;
     align-content: center;
     isolation: isolate;
+    overflow: hidden;
 }
 
 img {
@@ -22,34 +23,28 @@ img {
 .navbar {
   overflow: hidden;
   position: fixed;
-  background-color: black;
+  color: white;
   top:0px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 28px;
   font-style: normal;
+  width: 50vw;
 }
 
 .navbar .name {
   font-size: 45px;
-  color: beige;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 28px;
   font-style: normal;
-}
-
-.work{
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 20px;
 }
 
 .navbar a {
-  float: right;
+  float: left;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -59,19 +54,19 @@ img {
 button{
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
-    font-size: 17px;
+    font-size: 28px;
     color:white ;
-    width: 10.5vw;
+    width: 15.5vw;
     height: 7vh;
-    background: black;
+    background: none;
     border: none;
 }
 
 button:active {
-    width: 10.5vw;
+    width: 15.5vw;
     height: 7vh;
-    background: black;
-    color: white;
+    background: white;
+    color: black;
 }
 
 .left{
@@ -80,37 +75,29 @@ button:active {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-left: 70px;
 }
 
-.welcome{
+.instructions {
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
-    font-size: 50px;
-}
-
-.intro {
-    background: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-size: 17px;
+    font-size: 22px;
     color: white ;
-    margin: 20px;
     padding: 20px;
-    width: 33vw;
+    width: 48vw;
     display: flex;
     flex-direction: column;
-    margin-bottom: 430px;
+    margin-bottom: 476px;
+    margin-top:30px;
 }
 
 .vinyls {
     position: fixed;
-    width: 17vw;
-    height: 17vh;
+    width: 24vw;
+    height: 24vh;
     align-items: center;
     display: none;
     mix-blend-mode: multiply;
-    margin-bottom: -183px;
+    margin-bottom: -165px;
 }
 
 .center {
@@ -128,27 +115,19 @@ button:active {
     display: flex;
     justify-content: space-between;
     gap:10px;
+    margin-bottom: 35px;
 }
 
 .center-bottom {
     display: none;
     display: flex;
     justify-content:center;
-    gap:10px;
 }
 
 .right {
     width: 50vw;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-right: 70px;
-
-}
-
-.record-player {
-    width: 33vw;
-    margin-top: 12px;
+    right:0px;
+    overflow: hidden;
 }
 
 .controls{
@@ -156,40 +135,54 @@ button:active {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
-    font-size: 14px;
+    font-size: 17px;
     padding: 20px;
     color:black ;
-    width: 33vw;
+    width: 48vw;
+    margin: -40px;
+
 }
 
 .red:active {
-    background-color: red;
-    color:black;
+    color: red;
+    background-color:black;
+}
+
+.red:hover {
+    color:red;
 }
 
 .green:active {
-    background-color: rgb(0, 255, 0);
-    color:black;
+    color: rgb(0, 255, 0);
+    background-color:black;
+}
+
+.green:hover {
+    color: rgb(0, 255, 0);
 }
 
 .blue:active {
-    background-color: blue;
-    color:black;
+    color: blue;
+    background-color:black;
+}
+
+.blue:hover {
+    color: blue;
 }
 
 .red-controls {
     display: none;
-    background-color: cyan;
+    color: cyan;
 }
 
 .blue-controls {
     display: none;
-    background-color: yellow;
+    color: yellow;
 }
 
 .green-controls {
     display: none;
-    background-color: magenta;
+    color: magenta;
 }
 
 .reveal {
