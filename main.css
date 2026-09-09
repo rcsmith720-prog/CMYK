@@ -1,0 +1,197 @@
+* {
+    box-sizing:border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;  
+    margin: 0; 
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-position: center;
+    background-attachment:fixed;
+    align-content: center;
+    isolation: isolate;
+}
+
+img {
+    max-width:100%;
+}
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  background-color: black;
+  top:0px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+}
+
+.navbar .name {
+  font-size: 45px;
+  color: beige;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+}
+
+.work{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.navbar a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 17px;
+    color:white ;
+    width: 10.5vw;
+    height: 7vh;
+    background: black;
+    border: none;
+}
+
+button:active {
+    width: 10.5vw;
+    height: 7vh;
+    background: black;
+    color: white;
+}
+
+.left{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 70px;
+}
+
+.welcome{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.intro {
+    background: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 17px;
+    color: white ;
+    margin: 20px;
+    padding: 20px;
+    width: 33vw;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 430px;
+}
+
+.vinyls {
+    position: fixed;
+    width: 17vw;
+    height: 17vh;
+    align-items: center;
+    display: none;
+    mix-blend-mode: multiply;
+    margin-bottom: -183px;
+}
+
+.center {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: column;
+    position: fixed;
+    bottom: 403px;
+    gap: 10px;
+}
+
+.center-top{
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+}
+
+.center-bottom {
+    display: none;
+    display: flex;
+    justify-content:center;
+    gap:10px;
+}
+
+.right {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 70px;
+
+}
+
+.record-player {
+    width: 33vw;
+    margin-top: 12px;
+}
+
+.controls{
+    position: fixed;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    padding: 20px;
+    color:black ;
+    width: 33vw;
+}
+
+.red:active {
+    background-color: red;
+    color:black;
+}
+
+.green:active {
+    background-color: rgb(0, 255, 0);
+    color:black;
+}
+
+.blue:active {
+    background-color: blue;
+    color:black;
+}
+
+.red-controls {
+    display: none;
+    background-color: cyan;
+}
+
+.blue-controls {
+    display: none;
+    background-color: yellow;
+}
+
+.green-controls {
+    display: none;
+    background-color: magenta;
+}
+
+.reveal {
+    display: block;
+}
