@@ -6,7 +6,7 @@ body{
     display: flex;
     align-items: center;  
     margin: 0; 
-    background-color: black;
+    background-color: white;
     background-repeat: no-repeat;
     background-size: cover;    
     background-position: center;
@@ -23,7 +23,7 @@ img {
 .navbar {
   overflow: hidden;
   position: fixed;
-  color: white;
+  color: black;
   top:0px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -34,7 +34,7 @@ img {
 
 .navbar .name {
   font-size: 45px;
-  color: white;
+  color: black;
   text-align: center;
   padding: 20px 34px;
   text-decoration: none;
@@ -45,7 +45,7 @@ img {
 
 .navbar a {
   float: left;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -55,7 +55,7 @@ button{
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-size: 28px;
-    color:white ;
+    color:black ;
     width: 15.5vw;
     height: 7vh;
     background: none;
@@ -81,7 +81,7 @@ button:active {
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-size: 22px;
-    color: white ;
+    color: black ;
     padding: 20px;
     width: 48vw;
     display: flex;
@@ -94,10 +94,12 @@ button:active {
     position: fixed;
     width: 24vw;
     height: 24vh;
+    justify-content: center;
     align-items: center;
     display: none;
     mix-blend-mode: multiply;
-    margin-bottom: -160px;
+    margin-bottom: 15px;
+    left: 13vw;
 }
 
 .center {
@@ -115,13 +117,14 @@ button:active {
     display: flex;
     justify-content: space-between;
     gap:10px;
-    margin-bottom: 35px;
+    margin-bottom: 43px;
 }
 
 .center-bottom {
     display: none;
     display: flex;
     justify-content:center;
+    flex-direction: column;
 }
 
 .right {
@@ -132,21 +135,20 @@ button:active {
 }
 
 .controls{
-    position: fixed;
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-size: 17px;
     padding: 20px;
     color:black ;
-    width: 48vw;
-    margin: -40px;
+    width: 45vw;
+    margin-bottom: -700px;
 
 }
 
 .red:active {
     color: red;
-    background-color:black;
+    background-color:white;
 }
 
 .red:hover {
@@ -155,7 +157,7 @@ button:active {
 
 .green:active {
     color: rgb(0, 255, 0);
-    background-color:black;
+    background-color:white;
 }
 
 .green:hover {
@@ -164,7 +166,7 @@ button:active {
 
 .blue:active {
     color: blue;
-    background-color:black;
+    background-color:white;
 }
 
 .blue:hover {
@@ -173,17 +175,17 @@ button:active {
 
 .red-controls {
     display: none;
-    color: cyan;
+    background-color: cyan;
 }
 
 .blue-controls {
     display: none;
-    color: yellow;
+    background-color: yellow;
 }
 
 .green-controls {
     display: none;
-    color: magenta;
+    background-color: magenta;
 }
 
 .reveal {
