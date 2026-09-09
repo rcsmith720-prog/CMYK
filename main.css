@@ -192,3 +192,12 @@ button:active {
 .reveal {
     display: block;
 }
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 120%;
+  }
+  
+}
+
+
